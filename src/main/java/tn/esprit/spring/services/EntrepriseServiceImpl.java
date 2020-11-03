@@ -50,7 +50,7 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 			return depNames;
 			}
 			else {
-				l.error("erreur methode getAllDepartementsNamesByEntreprise : " );
+				l.error("erreur méthode getAllDepartementsNamesByEntreprise : " );
 				return depNames;
 			}
 		} catch (Exception e) {
