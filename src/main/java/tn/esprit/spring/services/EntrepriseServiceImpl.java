@@ -46,7 +46,7 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 			for(Departement dep : entrepriseManagedEntity.getDepartements()){
 				depNames.add(dep.getName());
 			}
-			l.debug("getAllDepartementsNamesByEntreprise fini avec succes ");
+			l.debug("getAllDepartementsNamesByEntreprise methode fini avec succes ");
 			return depNames;
 			}
 			else {
