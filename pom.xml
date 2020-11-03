@@ -19,6 +19,12 @@
 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 	</properties>
 
+	<properties>
+            <sonar.exclusions>**/controller/*.java,**/entities/*.java,
+			**/repository/*.java,**/config/*.java</sonar.exclusions>
+			
+      </properties>
+
 	<dependencies>
 
 		<dependency>
@@ -115,6 +121,7 @@
 		
 
 	</dependencies>
+
 
 
 
