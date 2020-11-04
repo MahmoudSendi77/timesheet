@@ -15,8 +15,9 @@ import tn.esprit.spring.entities.Entreprise;
 import tn.esprit.spring.repository.EntrepriseRepository;
 import tn.esprit.spring.services.IEntrepriseService;
 
-//@SpringBootTest
-//@RunWith(SpringRunner.class)
+@SpringBootTest
+@RunWith(SpringRunner.class)
+
 public class EntrepriseServiceImplTest {
 	@Autowired
 	IEntrepriseService ientrepriseservice;
