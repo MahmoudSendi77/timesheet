@@ -25,7 +25,7 @@ public class EntrepriseServiceImplTest {
 	@Autowired
     EntrepriseRepository entrepriseRepoistory;
 	
-	Integer idE;
+	Integer idE=7;
 	
 	
 	@Test
@@ -53,15 +53,14 @@ public class EntrepriseServiceImplTest {
 	@Test
 	public void testDeleteEntrepriseById()
 	{
-		if(idE!=null){
+		
 		int i = ientrepriseservice.deleteEntrepriseById(idE);
 		
-		assertEquals(0, i);}
-		else {
-			int i = ientrepriseservice.deleteEntrepriseById(6);
-			
-			assertEquals(0, i);}
+		assertEquals(0, i);
+		
 	}
+		
+	
 	
 	
 }
