@@ -20,7 +20,7 @@
 		
 		
 		  <sonar.exclusions>**/controller/*.java,**/entities/*.java,
-			**/repository/*.java,**/config/*.java,**/services/*.java,**/TimesheetApplication.java</sonar.exclusions>
+			**/repository/*.java,**/config/*.java,**/TimesheetApplication.java</sonar.exclusions>
 	</properties>
 
 	
