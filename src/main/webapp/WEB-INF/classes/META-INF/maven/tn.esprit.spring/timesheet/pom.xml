@@ -137,7 +137,7 @@
    		 <version>2.20</version>
     	<configuration>
         <includes>
-            <include>[tache]EntrepriseServiceImplTest.java</include>
+            <include>[tache] EntrepriseServiceImplTest.java</include>
         </includes>
         <testFailureIgnore>true</testFailureIgnore>
     </configuration> 
